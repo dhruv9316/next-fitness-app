@@ -1,0 +1,99 @@
+.heading {
+    display: flex;
+    margin-left: 1rem;
+    align-items: flex-start;
+}
+
+.heading h2 {
+    width: 70%;
+    color: #391053;
+}
+
+.heading div {
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.data1Card {
+    display: flex;
+    margin: 1rem 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purpleSquare {
+    width: 4rem;
+    height: 4rem;
+    background-color: #391053;
+    border-radius: 10px;
+}
+
+.data1Info {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.data1Info h4 {
+    color: #391053;
+}
+
+.data1Info > p {
+    opacity: 70%;
+}
+
+.image {
+    height: 100%;
+    margin-bottom: -10px;
+}
+
+.image > img {
+    width: 100%;
+}
+
+
+.container2 {
+    width: 100%;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #391053, #9b03fa);
+}
+
+.data2Card {
+    display: flex;
+    margin: 1rem 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data2Card > p {
+    /* width: 4rem; */
+    /* height: 4rem; */
+    color: #9b03fa97;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.data2Info {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.data2Info h4 {
+    color: white;
+}
+
+.data2Info > p {
+    color: whitesmoke;
+    opacity: 50%;
+}

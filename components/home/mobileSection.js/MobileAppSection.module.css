@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: linear-gradient(to top right, #5d1987 0%, #56167e 30%, #391053 50%, #5d1689 70%, #391053 100%);
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image > img {
+    width: 60%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.info > p {
+    opacity: 70%;
+}
+.info > ul {
+    margin-left: 1rem;
+    opacity: 70%;
+}
+
+.download {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+}
+
+.download > img {
+    width: 90%;
+}

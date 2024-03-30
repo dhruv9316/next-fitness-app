@@ -18,3 +18,14 @@ a {
   cursor: auto;
   outline: none; 
 }
+
+
+.purpleDiv {
+  width: 30%;
+  height: 10px;
+  background-color: #391053;
+  position: relative;
+  overflow: hidden;
+  transform: skew(-25deg);
+  margin-right: -15px;
+}
