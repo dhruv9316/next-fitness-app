@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import styles from './TrialForm.module.css'
 import ButtonLoading from "@/components/Loader/ButtonLoading";
 
-const page = () => {
+const TrialForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -118,4 +118,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default TrialForm;
