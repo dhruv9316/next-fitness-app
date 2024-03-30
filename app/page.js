@@ -4,6 +4,7 @@ import MiddleSection from "@/components/home/middleSection";
 import MobileAppSection from "@/components/home/mobileSection.js";
 import LastSection from "@/components/home/lastSection";
 import Footer from "@/components/footer/footer";
+import Reviews from "@/components/review/reviews";
 
 export default async function Home() {
 
@@ -12,6 +13,7 @@ export default async function Home() {
       <HeroSection />
       <MiddleSection />
       <MobileAppSection />
+      <Reviews />
       <LastSection />
       <Footer />
     </div>
