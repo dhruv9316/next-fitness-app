@@ -1,0 +1,30 @@
+.linkTag {
+    width: 15%;
+}
+
+.main {
+    outline: #391053;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #391053;
+    padding: 0.8rem 2rem;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    font-weight: 600;
+}
+
+.main:hover {
+    cursor: pointer;
+    scale: 1.03;
+}
+
+@media (max-width: 420px) {
+    .linkTag {
+        width: 50%;
+    }
+    
+    .main {
+        padding: 0.6rem 1rem;
+    }
+}

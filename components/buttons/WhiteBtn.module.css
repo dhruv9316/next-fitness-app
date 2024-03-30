@@ -1,0 +1,27 @@
+.main {
+    outline: #391053;
+    border: 2px solid #391053;
+    color: #391053;
+    width: 15%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.8rem 2rem;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    font-weight: 600;
+}
+
+.main:hover {
+    cursor: pointer;
+    scale: 1.03;
+}
+
+@media (max-width: 420px) {
+    .main {
+        width: 50%;
+        padding: 0.6rem 1rem;
+    }
+}
+
+/* purple - #391053
+light purple - 6e1fa0 */
